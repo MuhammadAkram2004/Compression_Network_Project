@@ -1,0 +1,81 @@
+This is a test file for the Multi-threaded Compression Server project.
+The purpose of this file is to demonstrate GZip compression over TCP sockets.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+--- SECTION 1: Programming ---
+C# is a modern, object-oriented programming language developed by Microsoft.
+It is widely used for building Windows applications, web services, and games.
+Multi-threading in C# allows multiple operations to run concurrently.
+The Thread class and Task class are commonly used for this purpose.
+TcpListener and TcpClient are used for network communication in C#.
+GZipStream provides built-in compression and decompression functionality.
+
+--- SECTION 2: Networking ---
+TCP (Transmission Control Protocol) is a connection-oriented protocol.
+It guarantees delivery of data packets in the correct order.
+A server listens on a specific port for incoming client connections.
+Each client connection can be handled in a separate thread for concurrency.
+Data is transmitted as raw bytes over the network stream.
+File size is sent as a long (8 bytes) before the actual file data.
+
+--- SECTION 3: Compression ---
+GZip is a file format and software application for file compression.
+It uses the DEFLATE algorithm for compression.
+Compression reduces file size, saving bandwidth and storage space.
+The compression ratio depends on the type and content of the file.
+Text files typically achieve high compression ratios (60-80% reduction).
+Binary files like images or videos may not compress as well.
+
+--- SECTION 4: Repeated Data (for better compression test) ---
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+
+--- SECTION 5: More Lorem Ipsum ---
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam.
+Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+
+--- SECTION 6: Repeated Sentences ---
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+The compression server is working correctly and handling multiple clients.
+
+--- END OF TEST FILE ---
+This file was created to test GZip compression efficiency.
+Expected compression ratio: ~70-85% reduction in size.
+Good luck with your project, بشمهندس محمد!
